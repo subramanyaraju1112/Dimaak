@@ -1,0 +1,23 @@
+.info-section .info-list {
+  background-color: #3D4152;
+  border-radius: 14px;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dot.dot-left {
+  left: -15px;
+}
+
+.dot.dot-right {
+  right: -15px;
+}

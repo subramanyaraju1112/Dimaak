@@ -1,0 +1,46 @@
+.package-section {
+  background-color: #f8ebe6;
+}
+
+.packages-headline {
+  color: #3d4152;
+  font-size: 34px;
+}
+
+.package-list-item {
+  background-color: white;
+  border-radius: 14px;
+}
+
+.package-image {
+  border-radius: 14px;
+}
+
+.package-list-item img {
+  width: 100%;
+}
+
+.theme-wrapper {
+  position: relative;
+  padding-top: 23px;
+  color: #3d4152;
+  border-top: 1px dashed #e9dad4;
+  border-radius: 0px;
+}
+
+.circle {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #f8ebe6;
+  border-radius: 50%;
+  top: -12px;
+}
+
+.circle.circle-left {
+  left: -11px;
+}
+
+.circle.circle-right {
+  right: -11px;
+}

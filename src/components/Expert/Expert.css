@@ -1,0 +1,33 @@
+.expert-section {
+  background-color: #2F0E03;
+}
+
+.expert-wrapper {
+  position: relative;
+}
+
+.content-box {
+  position: absolute;
+  inset: 0;
+  max-width: 487px;
+  width: 100%;
+}
+
+.content-info h3 {
+  color: #ff6737;
+  font-family: "Yesteryear", -apple-system, BlinkMacSystemFont, "sans-serif";
+}
+
+.content-info h2 {
+  font-size: 46px;
+}
+
+.expert-btn {
+  background-color: #ff4514;
+  padding: 15px 28px;
+  border-radius: 14px;
+}
+
+.expert-btn:hover {
+  background-color: #25d366;
+}

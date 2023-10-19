@@ -1,0 +1,41 @@
+.nav-body-item {
+  display: flex;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.subHeadline {
+  color: #ebebeb;
+}
+
+.whatsapp-btn {
+  background-color: #25d366;
+  border-radius: 14px;
+  padding: 14px 28px;
+}
+
+.whatsapp-btn:hover {
+  background-color: #ff4514;
+}
+
+.explore-btn {
+  background-color: #ff4514;
+  border-radius: 14px;
+  padding: 14px 28px;
+}
+
+.explore-btn:hover {
+  background-color: #25d366;
+}
+
+.chat-btn {
+  border: 0.734px solid white;
+  border-radius: 14px;
+  padding: 14px 28px;
+}
+
+.chat-btn:hover {
+  background-color: #ff4514;
+  border: none;
+}

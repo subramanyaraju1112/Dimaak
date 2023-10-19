@@ -1,0 +1,69 @@
+.form-content {
+  background-color: white;
+  border-radius: 18px;
+  padding: 28px 28px;
+}
+
+.form-headline {
+  font-family: "Yesteryear", -apple-system, BlinkMacSystemFont, "sans-serif";
+  color: #3d4152;
+  font-size: 28px;
+}
+
+.form-subHeadline {
+  color: #3d4152;
+  font-size: 28px;
+}
+
+.select-box {
+  width: 100%;
+}
+
+.form-icons {
+  background-color: #fff3ed;
+  border-radius: 57px;
+  padding: 8px 8px;
+}
+
+.query-title {
+  color: #3d4152;
+  font-size: 14px;
+  /* padding-left: 4px; */
+}
+
+.query-type {
+  color: #a8a8a8;
+  font-size: 16px;
+  border: none;
+  appearance: none;
+}
+
+.query-type:focus-visible {
+  outline: none;
+}
+
+.input-field {
+  padding: 5px;
+  background: none;
+  /* appearance: none; */
+}
+
+.input-field:focus-visible {
+  outline: none;
+  background: none;
+}
+
+.error-message {
+  color: red;
+}
+
+.send-enquiry-btn {
+  width: 100%;
+  background-color: #ff4514;
+  padding: 15px 125px;
+  border-radius: 14px;
+}
+
+.send-enquiry-btn:hover {
+  background-color: #25d366;
+}

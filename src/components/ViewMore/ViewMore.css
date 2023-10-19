@@ -1,0 +1,22 @@
+.view-more-text {
+  background: linear-gradient(
+    90deg,
+    #5c45a2 1.52%,
+    #aa439d 34.85%,
+    #d1284b 70.25%,
+    #f9a526 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.view-btn {
+  background-color: #ff4514;
+  border-radius: 14px;
+  padding: 15px 28px;
+}
+
+.view-btn:hover {
+  background-color: #25d366;
+}

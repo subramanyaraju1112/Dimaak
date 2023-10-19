@@ -1,0 +1,20 @@
+.handpicked-wrapper {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.handpicked-headline {
+  color: #3d4152;
+  font-size: 34px;
+}
+
+.handpicked-info h3 {
+  font-family: "Yesteryear", -apple-system, BlinkMacSystemFont, "sans-serif";
+}
+
+.handpicked-info {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(61, 65, 82, 0) 17.71%, #3d4152 100%);
+}

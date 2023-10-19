@@ -1,0 +1,85 @@
+.footer {
+  background-color: #1d1b1b;
+}
+
+.box-wrapper {
+  position: relative;
+  background-color: #ff6737;
+  border-radius: 14px;
+}
+
+.enquiry-info {
+  max-width: 330px;
+}
+
+.disc {
+  background-color: #888;
+  width: 6px;
+  height: 6px;
+  border-radius: 50px;
+}
+
+.contact-info {
+  max-width: 360px;
+  width: 100%;
+}
+
+.address {
+  color: #f8ece8;
+}
+
+.enquiry-btn {
+  padding: 14px 18px;
+  background-color: #25d366;
+  border-radius: 12px;
+}
+
+.enquiry-btn:hover {
+  background-color: #ff4514;
+}
+
+.popular-wrapper {
+  border-bottom: 1px solid #3d3d3d;
+  border-radius: 0px;
+}
+
+.nav-list {
+  color: #f8ece8;
+}
+
+.packages-wrapper {
+  border-bottom: 1px solid #3d3d3d;
+  border-radius: 0px;
+}
+
+.list-title {
+  color: #888;
+}
+
+.call-list {
+  color: #f8ece8;
+}
+
+.list-items {
+  color: #f8ece8;
+  cursor: pointer;
+}
+
+.list-items:hover {
+  opacity: 0.6;
+}
+
+.directions-btn {
+  background-color: #ff4514;
+  border-radius: 14px;
+  padding: 15px 28px;
+}
+
+.directions-btn:hover {
+  background-color: #25d366;
+}
+
+.copyrights-wrapper {
+  border-top: 1px solid #3d3d3d;
+  border-radius: 0px;
+}
