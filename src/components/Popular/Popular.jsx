@@ -11,13 +11,6 @@ import arrow from "/public/images/svg/Arrow 2.svg";
 import line from "/public/images/svg/Vector 16.svg";
 import arrowLeft from "/public/images/svg/arrow-left.svg";
 import arrowRight from "/public/images/svg/arrow-right.svg";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
-import "swiper/scss";
-import "swiper/scss/navigation";
-import "swiper/scss/pagination";
-// import "@/styles/common/swiper.scss";
-// import "@/styles/common/typo.scss";
 
 const Popular = () => {
   const Destinations = [
@@ -57,44 +50,15 @@ const Popular = () => {
         </div>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
-          <Swiper
-            spaceBetween={24}
-            slidesPerView={1}
-            navigation={{
-              nextEl: ".pagination-right-packaged-based",
-              prevEl: ".pagination-left-packaged-based",
-              enabled: true,
-            }}
-            modules={[Navigation, Autoplay]}
-            autoplay={{
-              delay: 1000,
-              waitForTransition: true,
-            }}
-            loop={true}
-            breakpoints={{
-              639: {
-                slidesPerView: 2,
-              },
-              1023: {
-                slidesPerView: 3,
-              },
-              1279: {
-                slidesPerView: 4,
-              },
-            }}
-          >
-            {Destinations.map((destination, index) => (
-              <SwiperSlide>
-                <div key={index} className="destination-wrapper col-span-1">
-                  <Image src={destination.image} alt="city" priority />
-                  <div className="destination-info p-6 flex flex-col text-center text-white justify-end">
-                    <h3>{destination.place}</h3>
-                    <span>{destination.price}</span>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          {Destinations.map((destination, index) => (
+            <div key={index} className="destination-wrapper col-span-1">
+              <Image src={destination.image} alt="city" priority />
+              <div className="destination-info p-6 flex flex-col text-center text-white justify-end">
+                <h3>{destination.place}</h3>
+                <span>{destination.price}</span>
+              </div>
+            </div>
+          ))}
         </div>
 
         <div className="flex items-center md:justify-center lg:justify-center xl:justify-end sm:justify-center">
